@@ -37,6 +37,17 @@ else:
     print("I am ELSE") #якщо немає помилки
 finally:
     print("КОНЕЦ")
+print("$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$")
+
+
+print("$$$$$$$$$$$$$$ next lesson $$$$$$$$$$$$$$$$")
+my_list = [1, 2, 3, 4, 5]
+iterator = iter(my_list)
+for i in range(1, 10):
+    print(next(iterator))
+
+for elem in iterator:
+    print(elem)
 
 
 
